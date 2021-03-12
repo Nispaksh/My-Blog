@@ -1,15 +1,21 @@
 body {
+    background-color: darkturquoise;
     text-align: center;
     color: black;
+    font-size:25px;
 }
 
 h1{
     text-align: center;
     font-size: 50px;
+    font-family:cursive;
 }
 h2{
     text-align: center;
     font-family: cursive;
+}
+h3{
+font-family: cursive
 }
 .line{
     width:50px;
@@ -39,4 +45,12 @@ h2{
 }
 .links:hover{
     background-color:red;
+}
+#1st{
+ background-color: aquamarine;
+}
+#2nd{
+    background-color: aquamarine;
+    text-align: center;
+    font-family: monospace;
 }
