@@ -1,62 +1,43 @@
-body {
-    background-color: darkturquoise;
-    text-align: center;
-    color: black;
-    font-size:25px;
+#contact iframe
+{
+    width: 100%;
 }
-
-h1{
-    text-align: center;
-    font-size: 50px;
-    font-family:cursive;
+.contact_1 h3
+{
+    display: inline;
 }
-h2{
-    text-align: center;
-    font-family: cursive;
+.contact_1 a
+{
+    text-shadow: none;
 }
-h3{
-font-family: cursive
-}
-.line{
-    width:50px;
-    height: 5px;
-    background-color: blue;
-    margin: auto;
-}
-.menu{
- list-style:none;
- position: absolute;
- font-family: cursive;
- top: 10px;
- right: 30px;
- cursor:pointer;
- z-index: 10;
  
+input
+{
+    background: grey
 }
-.links{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    font-family: cursive;
-    font-size: 25px;
-    float:left;
-    color:blueviolet
+.travel_mainDiv{
+    border: 1px solid #c7c7c7;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none;
 }
-.links:hover{
-    background-color:red;
+.travel_mainDiv hr{
+    width: 230px;
 }
-#1st{
- background-color: aquamarine;
+.movie_head{
+    font-size: 20px;
+    padding: 6ps 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100px;
+    display: inline-block;
 }
-#2nd{
-    background-color: aquamarine;
-    text-align: center;
-    font-family: monospace;
+.movie_head i{
+    float: right;
 }
-img{
-    transition: transform.2s; 
+.movie_text span{
+    color: #ff7700;
 }
-img:hover{
-    transform: scale(0.9);
+.header-enterpreneur{
+    line-height: 2px;
 }
